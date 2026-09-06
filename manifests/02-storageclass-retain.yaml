@@ -1,0 +1,18 @@
+# =============================================================================
+# File        : manifests/02-storageclass-retain.yaml
+# Practical   : DSO202 Practical 2
+# Purpose     : A second StorageClass whose volumes survive deletion of their
+#               claim. Used by the database in Listing 16.
+# Apply with  : kubectl apply -f manifests/02-storageclass-retain.yaml
+# =============================================================================
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: dso202-retain
+  labels:
+    dso202/practical: "02"
+    dso202/managed-by: declarative
+provisioner: rancher.io/local-path
+reclaimPolicy: Retain
+volumeBindingMode: WaitForFirstConsumer
+allowVolumeExpansion: false

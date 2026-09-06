@@ -1,0 +1,52 @@
+# =============================================================================
+# File        : manifests/01-quota-and-limits.yaml
+# Practical   : DSO202 Practical 2
+# Purpose     : Compute limits as in Practical 1, plus the three storage
+#               constraints that make this practical safe to run on a laptop.
+# Apply with  : kubectl apply -f manifests/01-quota-and-limits.yaml
+# =============================================================================
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: dso202-p2-quota
+  namespace: dso202-practical-02
+  labels:
+    dso202/practical: "02"
+    dso202/managed-by: declarative
+spec:
+  hard:
+    pods: "20"
+    requests.cpu: "2"
+    requests.memory: 4Gi
+    limits.cpu: "4"
+    limits.memory: 6Gi
+    persistentvolumeclaims: "12"
+    requests.storage: 20Gi
+    standard.storageclass.storage.k8s.io/requests.storage: 12Gi
+    dso202-retain.storageclass.storage.k8s.io/persistentvolumeclaims: "4"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: dso202-p2-limits
+  namespace: dso202-practical-02
+  labels:
+    dso202/practical: "02"
+    dso202/managed-by: declarative
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: 200m
+        memory: 128Mi
+      defaultRequest:
+        cpu: 50m
+        memory: 64Mi
+      max:
+        cpu: "1"
+        memory: 1Gi
+    - type: PersistentVolumeClaim
+      min:
+        storage: 100Mi
+      max:
+        storage: 5Gi
