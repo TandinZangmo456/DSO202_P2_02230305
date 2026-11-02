@@ -46,7 +46,7 @@ spec:
       # Update only Pods whose ordinal is greater than or equal to this value.
       # 0 updates everything, highest ordinal first. Stage 6 sets it to 2 to
       # update one Pod, inspects the result, then returns it to 0.
-      partition: 2
+      partition: 0
 
   # The lifecycle of the claims this StatefulSet generates. Both fields default
   # to Retain; both are stated because the defaults are a safety decision that
