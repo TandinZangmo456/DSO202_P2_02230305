@@ -1,0 +1,13 @@
+NAME        READY   STATUS        RESTARTS   AGE
+webnote-0   1/1     Running       0          7m55s
+webnote-1   1/1     Running       0          76s
+webnote-2   1/1     Running       0          7m23s
+webnote-3   1/1     Terminating   0          16s
+webnote-3   0/1     Completed     0          16s
+webnote-3   0/1     Completed     0          16s
+webnote-3   0/1     Completed     0          16s
+webnote-2   1/1     Terminating   0          7m23s
+webnote-2   1/1     Terminating   0          7m23s
+webnote-2   0/1     Completed     0          7m24s
+webnote-2   0/1     Completed     0          7m25s
+webnote-2   0/1     Completed     0          7m25s

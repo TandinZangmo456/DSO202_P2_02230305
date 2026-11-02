@@ -1,0 +1,1 @@
+drwxrwxr-x 2 root root 4096 Nov  2 18:10 /mnt/dso202-static

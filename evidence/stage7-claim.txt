@@ -1,0 +1,2 @@
+NAME              STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS    VOLUMEATTRIBUTESCLASS   AGE
+data-postgres-0   Bound    pvc-4ecd9a2a-4e46-4da4-ad19-1afe5d79b968   2Gi        RWO            dso202-retain   <unset>                 3m12s

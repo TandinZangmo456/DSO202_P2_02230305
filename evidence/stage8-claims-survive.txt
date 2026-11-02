@@ -1,0 +1,7 @@
+NAME                STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS    VOLUMEATTRIBUTESCLASS   AGE
+content-webnote-0   Bound    pvc-940ce702-ac3f-418e-a433-9746f98d96d8   1Gi        RWO            standard        <unset>                 33m
+content-webnote-1   Bound    pvc-2ec35aaa-04b9-48b5-ac61-218fd952bfb5   1Gi        RWO            standard        <unset>                 33m
+content-webnote-2   Bound    pvc-4ce60e9e-a061-4feb-a6b7-7b127d89a1d4   1Gi        RWO            standard        <unset>                 32m
+content-webnote-3   Bound    pvc-f1df4dd6-ad29-423e-b379-8c9e46201ae0   1Gi        RWO            standard        <unset>                 25m
+data-postgres-0     Bound    pvc-4ecd9a2a-4e46-4da4-ad19-1afe5d79b968   2Gi        RWO            dso202-retain   <unset>                 18m
+pvc-web-static      Bound    pv-web-static                              1Gi        RWO            manual          <unset>                 44m

@@ -1,0 +1,8 @@
+
+PostgreSQL Database directory appears to contain a database; Skipping initialization
+
+2026-11-02 18:55:01.620 UTC [1] LOG:  starting PostgreSQL 18.6 on x86_64-pc-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
+2026-11-02 18:55:01.621 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2026-11-02 18:55:01.621 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+2026-11-02 18:55:01.624 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2026-11-02 18:55:01.630 UTC [37] LOG:  database system was shut down at 2026-11-02 18:54:59 UTC

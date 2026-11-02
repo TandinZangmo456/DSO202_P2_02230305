@@ -1,0 +1,4 @@
+NAMES                     STATUS
+dso202-p2-worker          Up 7 minutes
+dso202-p2-worker2         Up 7 minutes
+dso202-p2-control-plane   Up 7 minutes

@@ -1,0 +1,13 @@
+Name:                                                             dso202-p2-quota
+Namespace:                                                        dso202-practical-02
+Resource                                                          Used  Hard
+--------                                                          ----  ----
+dso202-retain.storageclass.storage.k8s.io/persistentvolumeclaims  0     4
+limits.cpu                                                        0     4
+limits.memory                                                     0     6Gi
+persistentvolumeclaims                                            0     12
+pods                                                              0     20
+requests.cpu                                                      0     2
+requests.memory                                                   0     4Gi
+requests.storage                                                  0     20Gi
+standard.storageclass.storage.k8s.io/requests.storage             0     12Gi

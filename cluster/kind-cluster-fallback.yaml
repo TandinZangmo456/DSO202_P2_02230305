@@ -25,7 +25,7 @@ nodes:
           kubeletExtraArgs:
             node-labels: "dso202/node-role=worker,dso202/node-index=1"
     extraMounts:
-      - hostPath: /tmp/dso202-p2-storage
+      - hostPath: /home/tandinzangmo/dso202-p2-storage
         containerPath: /mnt/dso202-static
         readOnly: false
         selinuxRelabel: false

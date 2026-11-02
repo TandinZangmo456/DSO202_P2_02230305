@@ -1,0 +1,2 @@
+NAME                STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE
+content-webnote-1   Bound    pvc-2ec35aaa-04b9-48b5-ac61-218fd952bfb5   1Gi        RWO            standard       <unset>                 6m30s

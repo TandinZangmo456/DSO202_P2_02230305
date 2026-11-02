@@ -1,0 +1,2 @@
+NAME           STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE
+dynamic-data   Bound    pvc-d9bbc7d5-e8fb-4019-8c53-e5a05c79bdee   1Gi        RWO            standard       <unset>                 26s

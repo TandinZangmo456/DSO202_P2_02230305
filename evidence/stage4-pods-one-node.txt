@@ -1,0 +1,4 @@
+NAME                             NODE
+shared-writer-6f4b987c7b-52nfn   worker-node-2
+shared-writer-6f4b987c7b-nrwbd   worker-node-2
+shared-writer-6f4b987c7b-x7xvv   worker-node-2

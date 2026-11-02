@@ -1,0 +1,1 @@
+PostgreSQL init process complete; ready for start up.

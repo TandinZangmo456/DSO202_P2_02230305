@@ -1,0 +1,2 @@
+NAME             READY   STATUS    RESTARTS   AGE   IP           NODE            NOMINATED NODE   READINESS GATES
+dynamic-writer   1/1     Running   0          17s   10.244.2.3   worker-node-2   <none>           <none>

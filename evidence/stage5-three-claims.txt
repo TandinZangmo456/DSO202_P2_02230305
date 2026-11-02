@@ -1,0 +1,4 @@
+NAME                STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE
+content-webnote-0   Bound    pvc-940ce702-ac3f-418e-a433-9746f98d96d8   1Gi        RWO            standard       <unset>                 4m23s
+content-webnote-1   Bound    pvc-2ec35aaa-04b9-48b5-ac61-218fd952bfb5   1Gi        RWO            standard       <unset>                 4m7s
+content-webnote-2   Bound    pvc-4ce60e9e-a061-4feb-a6b7-7b127d89a1d4   1Gi        RWO            standard       <unset>                 3m51s

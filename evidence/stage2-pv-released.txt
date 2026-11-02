@@ -1,0 +1,2 @@
+NAME            CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS     CLAIM                                STORAGECLASS   VOLUMEATTRIBUTESCLASS   REASON   AGE
+pv-web-static   1Gi        RWO            Retain           Released   dso202-practical-02/pvc-web-static   manual         <unset>                          106s

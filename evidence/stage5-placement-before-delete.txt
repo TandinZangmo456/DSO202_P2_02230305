@@ -1,0 +1,4 @@
+NAME        NODE            IP
+webnote-0   worker-node-2   10.244.2.20
+webnote-1   worker-node-1   10.244.1.9
+webnote-2   worker-node-2   10.244.2.22

@@ -1,0 +1,2 @@
+NAME         READY   STATUS    RESTARTS   AGE     IP            NODE            NOMINATED NODE   READINESS GATES
+postgres-0   1/1     Running   0          9m31s   10.244.2.30   worker-node-2   <none>           <none>

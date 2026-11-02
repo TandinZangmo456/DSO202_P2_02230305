@@ -1,0 +1,4 @@
+NAME                                       CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS     CLAIM                                   STORAGECLASS    VOLUMEATTRIBUTESCLASS   REASON   AGE
+pv-web-static                              1Gi        RWO            Retain           Released   dso202-practical-02/pvc-web-static      manual          <unset>                          44m
+pvc-4ecd9a2a-4e46-4da4-ad19-1afe5d79b968   2Gi        RWO            Retain           Released   dso202-practical-02/data-postgres-0     dso202-retain   <unset>                          18m
+pvc-f1df4dd6-ad29-423e-b379-8c9e46201ae0   1Gi        RWO            Delete           Released   dso202-practical-02/content-webnote-3   standard        <unset>                          26m

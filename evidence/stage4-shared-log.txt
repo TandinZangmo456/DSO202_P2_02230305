@@ -1,0 +1,3 @@
+2026-11-02T18:28:11Z pod=shared-writer-6f4b987c7b-nrwbd node=worker-node-2
+2026-11-02T18:28:11Z pod=shared-writer-6f4b987c7b-x7xvv node=worker-node-2
+2026-11-02T18:28:12Z pod=shared-writer-6f4b987c7b-52nfn node=worker-node-2

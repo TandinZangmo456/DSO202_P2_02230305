@@ -1,0 +1,2 @@
+NAME            ADDRESSTYPE   PORTS   ENDPOINTS                            AGE
+webnote-fj8v2   IPv4          80      10.244.2.20,10.244.1.9,10.244.2.22   8m41s

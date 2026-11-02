@@ -1,0 +1,4 @@
+NAME        IMAGE
+webnote-0   nginx:1.30-alpine
+webnote-1   nginx:1.30-alpine
+webnote-2   nginx:1.31-alpine

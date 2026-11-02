@@ -1,0 +1,2 @@
+total 4
+-rw-r--r-- 1 tandinzangmo tandinzangmo 128 Nov  3 00:21 ledger.txt

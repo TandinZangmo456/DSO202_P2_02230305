@@ -1,0 +1,2 @@
+NAME      TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
+webnote   ClusterIP   None         <none>        80/TCP    0s

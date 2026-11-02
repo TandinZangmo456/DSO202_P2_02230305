@@ -6,7 +6,7 @@
 #               can be backed by storage that outlives the cluster.
 # Apply with  : kind create cluster --config cluster/kind-cluster.yaml
 # Delete with : kind delete cluster --name dso202-p2
-# Requires    : mkdir -p /tmp/dso202-p2-storage   (run BEFORE creating the
+# Requires    : mkdir -p /home/tandinzangmo/dso202-p2-storage   (run BEFORE creating the
 #               cluster; kind mounts the directory at creation time)
 # =============================================================================
 kind: Cluster
@@ -38,7 +38,7 @@ nodes:
           kubeletExtraArgs:
             node-labels: "dso202/node-role=worker,dso202/node-index=1"
     extraMounts:
-      - hostPath: /tmp/dso202-p2-storage
+      - hostPath: /home/tandinzangmo/dso202-p2-storage
         containerPath: /mnt/dso202-static
         readOnly: false
         selinuxRelabel: false

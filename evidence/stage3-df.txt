@@ -1,0 +1,2 @@
+Filesystem                Size      Used Available Use% Mounted on
+/dev/vda1               231.5G     16.4G    203.3G   7% /data

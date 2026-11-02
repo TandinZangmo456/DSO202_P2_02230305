@@ -1,0 +1,7 @@
+Server:		10.96.0.10
+Address:	10.96.0.10:53
+
+Name:	postgres.dso202-practical-02.svc.cluster.local
+Address: 10.96.140.239
+
+

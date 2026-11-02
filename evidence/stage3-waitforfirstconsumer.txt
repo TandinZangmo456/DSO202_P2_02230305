@@ -1,0 +1,6 @@
+VolumeMode:    Filesystem
+Used By:       <none>
+Events:
+  Type    Reason                Age              From                         Message
+  ----    ------                ----             ----                         -------
+  Normal  WaitForFirstConsumer  4s (x2 over 5s)  persistentvolume-controller  waiting for first consumer to be created before binding
